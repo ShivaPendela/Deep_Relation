@@ -23,7 +23,7 @@ def index():
             query_image_path = os.path.join(uploads_dir, uploaded_file.filename)
             uploaded_file.save(query_image_path)
 
-            root_folder_path = r"C:\Users\RIKSHITH REDDY\OneDrive\Desktop\DR"
+            root_folder_path = r"C:\Users\shiva sai\Desktop\DeepRelation"
 
             results, top_results = calculate_similarity_for_folders(root_folder_path, query_image_path)
 
